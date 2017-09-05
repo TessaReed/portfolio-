@@ -1,0 +1,76 @@
+
+.main {
+    margin-top: 30px;
+}
+
+/*navbar and video*/
+.navigation{
+  position: fixed;
+  padding-top:30px;
+  padding-bottom:30px;
+  top:0;
+  width:100%;
+  z-index:1;
+}
+
+.navbar-right{
+  float:right;
+  padding-right:10%;
+}
+
+.navbar-right a{
+  text-decoration:none;
+  padding:10px;
+  color: black;
+  font-family:Arial;
+  font-weight:900;
+}
+
+.navbar-right a:hover{
+  text-decoration:underline;
+}
+.navbar-logo{
+  padding-left:10%;
+  font-family:Arial;
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:black;
+}
+
+.video-container {
+z-index: -100;
+width:100%;
+height:75%;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
+}
+
+#video-bg{
+  width:100%;
+}
+/*end navbar and video*/
+
+.container {
+  border: black;
+}
+
+.tagline {
+    width: 100%;
+    background-color: #DEDECD;
+    padding: 77px 0px 107px 0px;
+    border-top: 1px solid #F4F5EE;
+}
+
+.taglineWrapper {
+    width: 94%;
+    max-width: 900px;
+    margin: 0px auto;
+    font-size: 28px;
+    color: #666666;
+    text-align: center;
+    font-weight: 300;
+    line-height: 40px;
+}
